@@ -1,0 +1,730 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HOTEL MOON VALLEY</title>
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" >
+  <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet" >
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet" >
+  <link href="assets/css/font-awesome.css" rel="stylesheet" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet" >
+ </head>
+<style type="text/css">
+.navbar-inverse .navbar-nav>li>a{
+font-size: 16px;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: grey;
+}
+li {
+      display: inline;
+      padding: 10px 10px 10px 10px;
+    }
+
+li:hover{
+  color: grey;
+}
+
+img{
+  width: 100%;
+}
+
+.navbar-inverse{
+  background:rgba(0, 0, 51,1);
+  border:none;
+}
+.navbar-inverse .navbar-nav>li>a {
+     color: #fff;
+}
+.navbar-inverse .navbar-nav>.active>a{
+  background: rgba(0, 0, 0, 0.5);
+}
+#home{
+ background: url('https://images.pexels.com/photos/264468/pexels-photo-264468.jpeg?dl&fit=crop&w=300&h=200');
+  text-align: center;
+  color: white;
+  background-size: cover;
+  padding: 170px 0 0 50px;
+  background-attachment: fixed;
+  border:1px solid grey;
+  border-radius: 2px;
+
+}
+.btt{
+  font-size: 30px;
+  background: #fecb00;
+  color: rgba(0, 0, 51,1);
+  border: 0;
+  border-radius: 2px;
+
+
+}
+.all{
+float: right;
+margin-right: 50px;
+
+
+}
+.btt:hover{
+background: #f0ab00;
+}
+#home h1{
+  font-size: 120px;
+  padding: 40px 0;
+    font-family: 'raleway',sans-serif;
+}
+.dec{
+  width: 100%;
+  color: white;
+  font-size: 40px;
+}
+.dec-line{
+  border-bottom: 2px solid white;
+  display: inline-block;
+  width: 25%;
+}
+#home h3{
+    font-family: 'droid serif',serif;
+    padding: 30px 0 100px 0;
+    font-size: 45px;
+}
+#home a{
+  color: white;
+  border: 2px solid white;
+  padding: 15px;
+  border-radius: 50%;
+  position: relative;;
+  bottom: 20px;
+}
+
+
+#home h2{
+  font-size: 45px;
+}
+#about{
+  text-align: center;
+  padding: 80px 5%;
+}
+#about h2{
+  font-weight: bold;
+  font-size: 40px;
+}
+#about p{
+  color: grey;
+  font-size: 25px;
+  font-family: 'droid serif',serif;
+}
+#about .dec{
+  color: #c5a47e;
+}
+#about .dec-line{
+  border-bottom-color: #c5a47e;
+}
+#about img{
+  margin-top: 30px;
+}
+#about img:hover{
+  border: 2px solid black;
+  opacity: .8;
+
+}
+#flight{
+margin: 80px 5%;
+}
+#flight h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+#flight h4{
+  text-align: center;
+  color: grey;
+  font-size: 25px;
+  font-family: 'droid serif',serif;
+    padding: 20px 0;
+}
+#flight .dec{
+  color: #c5a47e;
+  text-align: center;
+}
+#flight .dec-line{
+  border-bottom-color: #c5a47e;
+  text-align: center;
+}
+#flight th{
+  font-size: 20px;
+  text-align: center;
+
+}
+#flight td{
+font-size: 15px;
+color: black;
+font-family: 'droid serif',serif;
+}
+
+#popular {
+  text-align: center;
+  margin: 80px 0;
+  padding: 10px 20px;
+
+}
+#popular h2{
+  font-weight: bold;
+  font-size: 40px;
+  padding: 0px;
+}
+#popular .dec{
+  color: #c5a47e;
+  padding: 10px 0 50px 0;
+}
+#popular .dec-line{
+  border-bottom-color: #c5a47e;
+  padding: 0px 0 50px 0;
+}
+#popular h3{
+  font-size: 30px;
+}
+#popular p{
+  font-size: 25px;
+  color: grey;
+  padding: 0 10px;
+  font-family: 'droid serif',serif;
+  text-align: justify;
+}
+.sng{
+  width: 300px;
+  height: 200px;
+
+
+}
+.sng:hover{
+  border: 2px solid black;
+  opacity: .8;
+}
+
+.bbb{
+  background: grey;
+  border-radius: 20px;
+  font-size: 18px;
+  color: white;
+  border: 0px;
+  padding: 8px 20px 8px 20px;
+  margin-bottom: 20px;
+}
+.bbb:hover{
+  background: darkgrey;
+}
+#contact{
+  position: relative;
+}
+.contact-box{
+  position: absolute;
+  display: inline-block;
+  z-index: 100;
+  text-align: center;
+top: 10px;
+left: 10px;
+  background: white;
+
+}
+#contact .ee{
+  font-size: 25px;
+  padding: 0 20px ;
+
+}
+#contact h3{
+  font-size: 28px;
+}
+#contact p{
+  padding: 20px 0;
+  font-size: 18px;
+}
+#contact button{
+  font-size: 25px;
+
+}
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+
+
+}
+#foot i{
+  color: white;
+
+}
+#foot i:hover{
+  color: grey;
+}
+#foot h4{
+  color: white;
+}
+#foot h4:hover{
+  color: grey;
+}
+
+
+.qq{
+  color: grey;
+}
+.ee{
+background: white;
+border:1px solid grey;
+color: black;
+padding: 0 0 0 20px;
+font-size: 25;
+
+}
+
+.ee:hover{
+  color:grey;
+
+}
+  .fa fa-search{
+    margin-top: 20px;
+  }
+.ac{
+  width: 280px;
+  height: 50px;
+  margin-left: 0px;
+
+
+}
+.footer-links,.footer-link,.footer-social{
+
+  display: inline-block;
+  text-align: center;
+
+
+
+width: 33%;
+}
+footer{
+background:rgba(0, 0, 51,1);
+padding: 17px;
+}
+.footer-social i{
+  font-size: 25px;
+  margin: 5px;
+}
+
+@media(max-width:768px){
+  .ac{
+    width: 150px;
+  }
+  .btt{
+    font-size: 15px;
+    float: left;
+  }
+  .all{
+    float: left;
+
+
+  }
+  #home{
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0 10px 0;
+  }
+
+#home h1{
+  font-size: 30px;
+}
+#home h3{
+  font-size: 15px;
+}
+#home a{
+  padding: 5px;
+
+}
+  #about{
+    padding: 30px 5%;
+  }
+  #about h2{
+    font-size: 28px;
+}
+#about p{
+
+  font-size: 17px;
+}
+
+
+#home a{
+  padding: 10px;
+  border-radius: 50%;
+  position: relative;;
+  bottom: 20px;
+  margin: 0 auto;
+}
+#flight{
+margin: 30px 5%;
+}
+#flight h2{
+  font-size: 28px;
+
+#flight h4{
+  font-size: 17px;
+  font-family: 'droid serif',serif;
+    padding: 10px 0;
+}
+
+#flight th{
+  font-size: 16px;
+
+}
+#flight td{
+font-size: 13px;
+}
+#popular {
+  margin: 30px 0;
+  padding: 0 10px;
+
+}
+#popular h2{
+  font-size: 28px;
+}
+
+#popular h3{
+  font-size: 23px;
+
+}
+#popular p{
+  font-size: 13px;
+  padding: 0 22px;
+
+
+}
+#popular .sng{
+  height: 175px;
+  width: 350px;
+}
+.bbb{
+  font-size: 15px;
+
+  padding: 5px 15px 5px 15px;
+}
+#contact{
+
+}
+#contact .ee{
+  font-size: 15px;
+  padding: 0 10px ;
+
+}
+#contact h3{
+  font-size: 15px;
+}
+#contact p{
+  padding: 0px;
+  font-size: 10px;
+}
+#contact button{
+  font-size: 15px;
+
+}
+#map {
+width: 100%;
+  height: 200px;
+
+}
+
+#foot h4{
+  font-size: 13px;
+
+}
+
+.footer-social i{
+  font-size: 13px;
+  padding: 0px;
+}
+.footer-links,.footer-link,.footer-social{
+  width: 32%;
+}
+footer{
+  padding: 10px;
+}
+
+
+
+
+
+.dec{
+  font-size: 15px;
+}
+}
+</style>
+<body>
+
+<!--navbar starts  -->
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <img src="https://images.pexels.com/photos/300256/pexels-photo-300256.jpeg?dl&fit=crop&w=300&h=200">
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+     <ul class="nav navbar-nav">
+      <li ><a href="#home">Home </a></li>
+      <li><a href="#about">about</a> </li>
+      <li><a href="#flight">SWEETS </a></li>
+      <li><a href="#popular">RESTURENTS</a>  </li>
+      <li><a href="#contact">contact</a>  </li>
+     </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-tag"></span> Login</a></li>
+      <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+<!-- navbar ends -->
+
+
+
+
+<!-- home starts -->
+  <div class="container-fluid">
+    <div class="row">
+      <section id="home">
+        <div class="all">
+         <button class="btt">Hotel Services</button>
+         <button class="btt"><i class="fa fa-plane" aria-hidden="true"></i></button>
+        </div>
+        <h1>HOTEL MOON VALLEY </h1>
+        <h3>CHOOSE THE BEST
+
+                 </h3>
+        <a href="#"><i class="glyphicon glyphicon-heart"></i></a>
+      </section>
+    </div>
+
+  <!-- home ends -->
+
+
+
+  <!-- about starts  -->
+  <div class="row">
+   <section id="about">
+    <h2>About </h2>
+      <div class="dec">
+       <div class="dec-line"></div>&emsp;&#9880;&emsp;<div class="dec-line"></div>
+      </div>
+
+      <p>
+        HOTEL PRINCESS (4 stars) is located at the most attractive part of Bar, nearby the promenade along the sea shore, and is surrounded by lush vegetation, museum complex and sport terraines.
+Rooms and apartments are comfortable and contemporarily designed, with exceptional views of the marina, beach and sea, palace and mountains at the town s hinterland. Hotel has 135 rooms, which offer modern comfort: mini bar, air conditioner, satelite & cable TV, safety deposit box, as well as all neccessary accesories and room service.
+Choose the bathroom you want: with bath tub and shower bath tub; only with bath tub or only with shower bath tub. Our restaurants offer specialties of national & international cuisine, various drinks, accompanied with good service. Lobby & Piano bar are pleasant spaces for rest, while having a drink and conversation with business partners or friends. You can enjoy and also have a drink or try some sweets or cakes at the Pool bar, from which you can go out to the pool and spacious terrace of the hotel.
+
+
+      </p>
+      <div class="col-md-12">
+        <div class="col-md-4 col-xs-12">
+          <img src="https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?dl&fit=crop&w=640&h=426">
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <img src="https://images.pexels.com/photos/97083/pexels-photo-97083.jpeg?dl&fit=crop&w=640&h=426" >
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <img src="https://images.pexels.com/photos/53577/hotel-architectural-tourism-travel-53577.jpeg?dl&fit=crop&w=640&h=426" >
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="col-md-4 col-xs-12">
+          <img src="https://images.pexels.com/photos/297984/pexels-photo-297984.jpeg?dl&fit=crop&w=640&h=426" >
+        </div>
+      <div class="col-md-4 col-xs-12">
+         <img src="https://images.pexels.com/photos/271672/pexels-photo-271672.jpeg?dl&fit=crop&w=640&h=426" >
+      </div>
+      <div class="col-md-4 col-xs-12">
+          <img src="https://images.pexels.com/photos/189293/pexels-photo-189293.jpeg?dl&fit=crop&w=640&h=426" >
+      </div>
+     </div>
+    </section>
+   </div>
+<!-- about ends -->
+
+
+
+
+<!-- table starts -->
+<div class="row">
+  <section id="flight">
+    <h2>SWEETS</h2>
+    <div class="dec">
+  <div class="dec-line"></div>&emsp;&#9880;&emsp;<div class="dec-line"></div>
+  </div>
+
+    <h4>
+      Check what is trending
+    </h4>
+    <table class="table table-bordered">
+      <thead>
+       <tr>
+        <th>SWEETS</th>
+        <th>Price</th>
+        <th>Ratinmgs</th>
+       </tr>
+      </thead>
+    <tbody>
+     <tr>
+      <td>1 BedROOM  SWEET</td>
+      <td> 	$200 </td>
+      <td>*** </td>
+     </tr>
+    <tr>
+     <td>2 BEDROOM  SWEET</td>
+     <td> 	$230 </td>
+     <td>***</td>
+    </tr>
+   <tr>
+     <td>HONEYMOON SWEET</td>
+     <td> 	$300 </td>
+     <td>****</td>
+    </tr>
+
+     </tbody>
+    </table>
+  </section>
+
+   </div>
+  <!--table ends  -->
+
+
+
+<!-- destination starts -->
+<div class="row">
+  <section id="popular">
+    <h2>BEST SWEETS</h2>
+    <div class="dec">
+  <div class="dec-line"></div>&emsp;&#9880;&emsp;<div class="dec-line"></div>
+  </div>
+    <div class="col-md-4 col-xs-12">
+     <img class="sng"src="https://images.pexels.com/photos/97083/pexels-photo-97083.jpeg?dl&fit=crop&w=640&h=426" >
+     <h3>HONEYMOON SWEET</h3>
+     <p>
+      Very friendly and welcoming. Large menu, family friendly. They have specials every night. Reminds me of the old supper clubs, where people would drive for miles to come. They still do!
+
+     </p>
+     <button class="bbb">More details</button>
+   </div>
+   <div class="col-md-4 col-xs-12">
+    <img class="sng"src="https://images.pexels.com/photos/300256/pexels-photo-300256.jpeg?dl&fit=crop&w=300&h=200" >
+    <h3>1 BEDROOM SWEET</h3>
+    <p>
+  I have enjoyed Ruebens, salads, and burgers at noon. Evening meals were superb also. Heartily recommend this location. Prices are reasonable.
+
+
+    </p>
+       <button class="bbb">More details</button>
+   </div>
+   <div class="col-md-4 col-xs-12">
+     <img class="sng"src="https://images.pexels.com/photos/264468/pexels-photo-264468.jpeg?dl&fit=crop&w=300&h=200" >
+     <h3>2 BEDROOM SWEET</h3>
+     <p>
+ This is a great place that is in an old brick hotel, you can still get a room. The food is simple but very good. It's a place you can decide to visit at the last minute and just jump in the car and take off.
+     </p>
+     <button class="bbb">More details</button>
+   </div>
+
+  </section>
+
+  </div>
+  <!-- destination ends -->
+
+
+  <!-- contact us starts -->
+  <div class="row">
+    <section id="contact">
+
+      <div class="contact-box">
+        <h3>where to meet?</h3>
+        <p>
+       20/55 DELHI
+        </p>
+        <button >  Contact Us</button>
+        <h3>Want to say hello?</h3>
+        <p>Thank you for 499 shares!</p>
+        <button class="ee">  <i class="fa fa-facebook-square" aria-hidden="true"></i>Facebook</button>
+        <button class="ee">  <i class="fa fa-twitter" aria-hidden="true"></i>Twiter</button>
+
+      </div>
+        <div id="map"></div>
+    </section>
+
+  </div>
+  <!-- contact us ends  -->
+
+
+  <!-- footer starts -->
+
+    <div class="row">
+      <footer>
+       <section id="foot">
+        <div class="footer-links">
+          <a href="#"><h4>Privacy Terms&Conditi</h4></a>
+
+        </div>
+        <div class="footer-link">
+            <a href="#"><h4>2017 CLUB 18+</h4></a>
+
+        </div>
+
+        <div class="footer-social">
+          <a href="#">  <i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+
+          <a href="#">  <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
+        </div>
+      </section>
+    </footer>
+  </div>
+
+
+
+
+
+  <!-- footer ends -->
+
+</div>
+<script>
+     function initMap() {
+       var uluru = {lat: 28.5561624, lng: 77.0977691};
+       var map = new google.maps.Map(document.getElementById('map'), {
+         zoom: 13,
+         center: uluru
+       });
+       var marker = new google.maps.Marker({
+         position: uluru,
+         map: map
+       });
+     }
+   </script>
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9GtTegz3dLuxMBFsK_WzbczDpd_W_BVI&callback=initMap">
+    </script>
+
+</body>
+</html>
